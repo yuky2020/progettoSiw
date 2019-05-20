@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), 
+       local('Roboto-Regular'), 
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+       format('woff');
+}
+
+body{
+	background: black;
+	color: white;
+	font-weight: bold;
+	font-family: Roboto; 
+}
+
+.myForm{
+	margin: 20px;
+	
+	
+    
+    
+}
+
+input[type="text"], input[type="password"]{
+	border-radius: 20px;
+	border: solid green;
+	width: 20%;
+	transition: 0.25s;
+	
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+	width: 30%;
+}
+
+input[type="submit"]{
+	border-radius: 30px;
+	background: purple;
+	font-size: 20px;
+}
