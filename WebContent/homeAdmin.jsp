@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Pannello di controllo</title>
 </head>
 <body>
-ok
+	<input type="button" onclick="location.href='newFotografo.jsp'" value="aggiungi fotografo">
+	<br> <input type="button" onclick="location.href='mostraFotografi.jsp'" value="mostra fotografi">
 </body>
 </html>

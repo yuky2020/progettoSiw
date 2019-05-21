@@ -14,14 +14,12 @@
 			<property name="javax.persistence.jdbc.user"
 				value="postgres" />
 			<property name="javax.persistence.jdbc.password"
-				value="postgres" />
+				value="benni" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:postgresql://localhost/products" />
-			<!-- Hibernate properties -->
+				value="jdbc:postgresql://localhost/progettoSiw" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
-			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="create" />
 		</properties>
 	</persistence-unit>

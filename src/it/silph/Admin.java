@@ -5,8 +5,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 
 @Entity
+@NamedQuery(name = "findAllAdmin", query = "Select a from Admin a")
 public class Admin {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

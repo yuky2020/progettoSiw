@@ -9,8 +9,6 @@
 <body>
 	<h1>BENVENUTO</h1>
 	<div class="myDiv">
-		<input type="button" name="" onclick="location.href='registrazione.jsp'" value="REGISTRATI">
-		<br><br>
 		<input type="button" name="" onclick="location.href='login.jsp'" value="LOGIN">
 	</div>
 </body>

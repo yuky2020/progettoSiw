@@ -12,10 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import it.silph.Admin;
 
-@WebServlet
+@WebServlet("/adminController")
 public class AdminController extends HttpServlet{
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String username = req.getParameter("username");
 		String pwd = req.getParameter("pwd");
 		Admin admin = new Admin("Paolo","1234");
@@ -28,5 +28,6 @@ public class AdminController extends HttpServlet{
 		ServletContext sc = getServletContext();
 		RequestDispatcher rd = sc.getRequestDispatcher(destinazione);
 		rd.forward(req, resp);
+		return;
 	}
 }
