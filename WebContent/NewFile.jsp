@@ -20,6 +20,7 @@
 <!-- UI JS file -->
 <script src="dist/photoswipe-ui-default.min.js"></script> 
 </head>
+
 <body>
 <h2>First gallery:</h2>
 
